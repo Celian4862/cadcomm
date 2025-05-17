@@ -21,26 +21,38 @@ export default function StickyNav() {
   }, []);
 
   return (
-    <nav
-      className={`sticky top-0 z-50 transition-transform duration-300 bg-white border-b border-gray-200 p-4 flex items-center justify-between ${
+    <div
+      className={`sticky top-0 z-50 transition-transform duration-300 bg-[#CFF6FF] dark:bg-[#1A2A32] p-4 flex items-center justify-between ${
         visible ? "translate-y-0" : "-translate-y-full"
       }`}
     >
       <img src="logo.png" alt="Website logo" className="w-30" />
-      <div className="flex w-auto">
-        <a href="#home" className="mx-2 text-gray-700 hover:text-gray-900">
+      <nav className="flex w-auto">
+        <a
+          href="#home"
+          className="mx-2 text-gray-800 hover:text-cyan-800 dark:text-white dark:hover:text-cyan-200"
+        >
           Home
         </a>
-        <a href="#about" className="mx-2 text-gray-700 hover:text-gray-900">
+        <a
+          href="#about"
+          className="mx-2 text-gray-800 hover:text-cyan-800 dark:text-white dark:hover:text-cyan-200"
+        >
           About
         </a>
-        <a href="#services" className="mx-2 text-gray-700 hover:text-gray-900">
+        <a
+          href="#services"
+          className="mx-2 text-gray-800 hover:text-cyan-800 dark:text-white dark:hover:text-cyan-200"
+        >
           Services
         </a>
-        <a href="#contact" className="mx-2 text-gray-700 hover:text-gray-900">
+        <a
+          href="#contact"
+          className="mx-2 text-gray-800 hover:text-cyan-800 dark:text-white dark:hover:text-cyan-200"
+        >
           Contact
         </a>
-      </div>
-    </nav>
+      </nav>
+    </div>
   );
 }
