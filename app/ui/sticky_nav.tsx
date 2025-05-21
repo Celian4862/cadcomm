@@ -28,30 +28,12 @@ export default function StickyNav() {
     >
       <img src="logo.png" alt="Website logo" className="w-30" />
       <nav className="flex w-auto">
-        <a
-          href="#home"
-          className="mx-2 text-gray-800 hover:text-cyan-800 dark:text-white dark:hover:text-cyan-200"
-        >
-          Home
-        </a>
-        <a
-          href="#about"
-          className="mx-2 text-gray-800 hover:text-cyan-800 dark:text-white dark:hover:text-cyan-200"
-        >
-          About
-        </a>
-        <a
-          href="#services"
-          className="mx-2 text-gray-800 hover:text-cyan-800 dark:text-white dark:hover:text-cyan-200"
-        >
-          Services
-        </a>
-        <a
-          href="#contact"
-          className="mx-2 text-gray-800 hover:text-cyan-800 dark:text-white dark:hover:text-cyan-200"
-        >
-          Contact
-        </a>
+        <a href="">about us</a>
+        <a href="">curia</a>
+        <a href="">clergy</a>
+        <a href="">pilgrimages</a>
+        <a href="">archdiocesan institutions</a>
+        <a href="">updates</a>
       </nav>
     </div>
   );
