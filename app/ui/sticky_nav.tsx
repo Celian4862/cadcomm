@@ -29,7 +29,7 @@ export default function StickyNav() {
       <a href="/">
         <img src="logo.png" alt="Website logo" className="w-60" />
       </a>
-      <nav className="flex w-auto justify-around gap-x-8 pr-10">
+      <nav className="flex w-auto justify-around gap-x-10 pr-10">
         <a href="/about-us">about us</a>
         <a href="/curia">curia</a>
         <a href="/clergy">clergy</a>
