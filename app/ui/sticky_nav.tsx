@@ -3,29 +3,8 @@
 import { useEffect, useRef, useState } from "react";
 
 export default function StickyNav() {
-  const [visible, setVisible] = useState(true);
-  const lastScrollY = useRef(0);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const currentScrollY = window.scrollY;
-      if (currentScrollY > lastScrollY.current && currentScrollY > 50) {
-        setVisible(false); // scrolling down
-      } else {
-        setVisible(true); // scrolling up
-      }
-      lastScrollY.current = currentScrollY;
-    };
-    window.addEventListener("scroll", handleScroll, { passive: true });
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
   return (
-    <div
-      className={`sticky top-0 z-50 mt-5 flex items-center justify-between bg-[#CFF6FF]/40 p-2 shadow-[0_2px_4px_-1px_rgba(0,0,0,0.15),0_-2px_12px_-1px_rgba(0,0,0,0.15)] transition-transform duration-300 dark:bg-[#1A2A32]/40 ${
-        visible ? "translate-y-0" : "-translate-y-full"
-      }`}
-    >
+    <div className="absolute top-5 z-50 flex w-screen items-center justify-between bg-[#CFF6FF]/40 p-2 shadow-[0_2px_4px_-1px_rgba(0,0,0,0.15),0_-2px_12px_-1px_rgba(0,0,0,0.15)] transition-transform duration-300 dark:bg-[#1A2A32]/40">
       <a href="/">
         <img src="logo.png" alt="Website logo" className="w-60" />
       </a>
