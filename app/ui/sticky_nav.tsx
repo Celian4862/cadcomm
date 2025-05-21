@@ -4,7 +4,7 @@ export default function StickyNav() {
       <a href="/">
         <img src="logo.png" alt="Website logo" className="w-60" />
       </a>
-      <nav className="flex w-auto justify-around gap-x-10 pr-10 *:text-[1.2rem] *:text-[#00033d] *:uppercase *:transition-colors *:duration-300 *:hover:text-[#7dd3fc] *:active:text-[#1a1a6b] *:dark:text-[#7dd3fc] *:dark:hover:text-[#ffffff] *:dark:active:text-[#38bdf8]">
+      <nav className="flex w-auto justify-around gap-x-15 pr-10 *:text-[1.2rem] *:text-[#00033d] *:uppercase *:transition-colors *:duration-300 *:hover:text-[#7dd3fc] *:active:text-[#1a1a6b] *:dark:text-[#7dd3fc] *:dark:hover:text-[#ffffff] *:dark:active:text-[#38bdf8]">
         <a href="/about-us">about us</a>
         <a href="/curia">curia</a>
         <a href="/clergy">clergy</a>
