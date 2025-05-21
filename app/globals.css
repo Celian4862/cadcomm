@@ -26,6 +26,7 @@ body {
 }
 
 nav a {
+  font-size: 1.2rem;
   margin-inline: 0.3rem;
   color: var(--nav-color);
   text-transform: uppercase;
