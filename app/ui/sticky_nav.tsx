@@ -22,7 +22,7 @@ export default function StickyNav() {
 
   return (
     <div
-      className={`sticky top-0 z-50 transition-transform duration-300 bg-[#CFF6FF]/40 dark:bg-[#1A2A32]/40 p-4 flex items-center justify-between ${
+      className={`sticky top-0 z-50 mt-6 flex items-center justify-between bg-[#CFF6FF]/40 p-4 transition-transform duration-300 dark:bg-[#1A2A32]/40 ${
         visible ? "translate-y-0" : "-translate-y-full"
       }`}
     >
