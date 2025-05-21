@@ -6,9 +6,6 @@
   --button-color: #000000;
   --button-color-hover: #cff6ff;
   --foreground: #000000;
-  --nav-color: #00033d;
-  --nav-color-hover: #7dd3fc;
-  --nav-color-active: #00033d;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,9 +14,6 @@
     --button-color: #ffffff;
     --button-color-hover: #020877;
     --foreground: #ffffff;
-    --nav-color: #7dd3fc;
-    --nav-color-hover: #ffffff;
-    --nav-color-active: #7dd3fc;
   }
 }
 
@@ -46,15 +40,4 @@ button:hover {
 
 button:active {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
-}
-
-nav a {
-  font-size: 1.2rem;
-  margin-inline: 0.3rem;
-  color: var(--nav-color);
-  text-transform: uppercase;
-}
-
-nav a:hover {
-  color: var(--nav-color-hover);
 }
