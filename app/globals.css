@@ -5,6 +5,8 @@
   --background: #ffffff;
   --foreground: #000000;
   --nav-color: #00033d;
+  --nav-color-hover: #7dd3fc;
+  --nav-color-active: #00033d;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -12,6 +14,8 @@
     --background: #000000;
     --foreground: #ffffff;
     --nav-color: #7dd3fc;
+    --nav-color-hover: #ffffff;
+    --nav-color-active: #7dd3fc;
   }
 }
 
@@ -22,6 +26,11 @@ body {
 }
 
 nav a {
+  margin-inline: 0.3rem;
   color: var(--nav-color);
   text-transform: uppercase;
+}
+
+nav a:hover {
+  color: var(--nav-color-hover);
 }
