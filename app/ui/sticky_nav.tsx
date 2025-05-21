@@ -26,14 +26,16 @@ export default function StickyNav() {
         visible ? "translate-y-0" : "-translate-y-full"
       }`}
     >
-      <img src="logo.png" alt="Website logo" className="w-30" />
+      <a href="/">
+        <img src="logo.png" alt="Website logo" className="w-30" />
+      </a>
       <nav className="flex w-auto">
-        <a href="">about us</a>
-        <a href="">curia</a>
-        <a href="">clergy</a>
-        <a href="">pilgrimages</a>
-        <a href="">archdiocesan institutions</a>
-        <a href="">updates</a>
+        <a href="/about-us">about us</a>
+        <a href="/curia">curia</a>
+        <a href="/clergy">clergy</a>
+        <a href="/pilgrimages">pilgrimages</a>
+        <a href="/archdiocesan-institutions">archdiocesan institutions</a>
+        <a href="/updates">updates</a>
       </nav>
     </div>
   );
