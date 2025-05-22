@@ -15,8 +15,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`antialiased`}>
-        <StickyNav />
-        {children}
+        <header>
+          <StickyNav />
+        </header>
+        <main>{children}</main>
+        <footer className="bg-[#00033d] p-5 text-center text-sm font-semibold tracking-widest text-white">
+          Copyright 2024 &copy; The Roman Catholic Archdiocese of Cebu. All
+          Rights Reserved.
+        </footer>
       </body>
     </html>
   );
