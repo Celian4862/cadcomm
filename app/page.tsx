@@ -21,7 +21,7 @@ export default function Home() {
         />
       </div>
       <header>
-        <h2 className="bg-tertiary w-full p-4 text-center text-5xl font-bold tracking-widest text-white uppercase">
+        <h2 className="bg-secondary w-full p-4 text-center text-5xl font-bold tracking-widest text-white uppercase">
           History
         </h2>
       </header>
