@@ -69,6 +69,25 @@ export default function Home() {
           className="pb-10"
         />
       </div>
+      <header>
+        <h2 className="bg-secondary w-full p-4 text-center text-5xl font-bold tracking-widest text-white uppercase">
+          Demographics
+        </h2>
+      </header>
+      <div className="grid grid-cols-3 gap-x-9 px-15 py-10 *:h-130">
+        <div
+          className="bg-cover bg-center"
+          style={{ backgroundImage: 'url("/demographics1.png")' }}
+        ></div>
+        <div
+          className="bg-cover bg-center"
+          style={{ backgroundImage: 'url("/demographics2.png")' }}
+        ></div>
+        <div
+          className="bg-cover bg-center"
+          style={{ backgroundImage: 'url("/demographics3.png")' }}
+        ></div>
+      </div>
     </>
   );
 }
