@@ -19,7 +19,7 @@ export default function RootLayout({
           <NavBar />
         </header>
         <main>{children}</main>
-        <footer className="bg-darkest-blue p-5 text-center text-sm font-semibold tracking-widest text-white">
+        <footer className="bg-blue-darkest p-5 text-center text-sm font-semibold tracking-widest text-white">
           Copyright 2024 &copy; The Roman Catholic Archdiocese of Cebu. All
           Rights Reserved.
         </footer>
