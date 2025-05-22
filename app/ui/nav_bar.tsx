@@ -1,4 +1,4 @@
-export default function StickyNav() {
+export default function NavBar() {
   return (
     <div className="absolute top-5 z-50 flex w-full items-center justify-between bg-[#CFF6FF]/40 p-2 shadow-[0_2px_4px_-1px_rgba(0,0,0,0.15),0_-2px_12px_-1px_rgba(0,0,0,0.15)] transition-transform duration-300 dark:bg-[#1A2A32]/40">
       <a href="/">

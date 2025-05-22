@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import StickyNav from "@/app/ui/sticky_nav";
+import NavBar from "@/app/ui/nav_bar";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`antialiased`}>
         <header>
-          <StickyNav />
+          <NavBar />
         </header>
         <main>{children}</main>
         <footer className="bg-[#00033d] p-5 text-center text-sm font-semibold tracking-widest text-white">
