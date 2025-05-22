@@ -20,6 +20,45 @@ export default function Home() {
           className="h-screen"
         />
       </div>
+      <header>
+        <h2 className="w-full bg-[#00033d] p-4 text-center text-5xl font-bold tracking-widest text-white uppercase">
+          History
+        </h2>
+      </header>
+      <div className="grid grid-cols-3 gap-x-13 px-15 pt-10">
+        <div className="col-span-2 bg-[#cff6ff]/40 p-5 shadow-[black_0_2px_10px]/15">
+          <h3 className="text-3xl font-bold text-[#242C5B]">
+            Archdiocese of Cebu: The Journey of Transformative Faith and Hope in
+            the Orient
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.Lorem
+            ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+            nibh euismod tincidunt ut laoreet dolore magna aliquam.Lorem ipsum
+            dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+            euismod tincidunt ut laoreet dolore magna aliquam.Lorem ipsum dolor
+            sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+            euismod tincidunt ut laoreet dolore magna aliquam.Lorem ipsum dolor
+            sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+            euismod tincidunt ut laoreet dolore magna aliquam.Lorem ipsum dolor
+            sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+            euismod tincidunt ut laoreet dolore magna aliquam.Lorem ipsum dolor
+            sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+            euismod tincidunt ut laoreet dolore magna aliquam.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.Lorem
+            ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+            nibh euismod tincidunt ut laoreet dolore magna aliquam.Lorem ipsum
+            dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+            euismod tincidunt ut laoreet dolore magna aliquam.
+          </p>
+          <button>Read More</button>
+        </div>
+        <img src="History image.png" alt="History image" className="pb-10" />
+      </div>
     </>
   );
 }
