@@ -17,6 +17,13 @@
   }
 }
 
+@theme {
+  --color-blue: #1957c4;
+  --color-dark-blue: #0e227a;
+  --color-darker-blue: #242c5b;
+  --color-darkest-blue: #00033d;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
@@ -24,12 +31,14 @@ body {
 }
 
 button {
+  background-color: white;
   border: 1px solid var(--button-color);
   border-radius: 2rem;
   box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
   font-size: 0.8rem;
   font-weight: 800;
   letter-spacing: 1px;
+  margin: 1.5rem 0;
   padding: 0.7rem 2rem;
   text-transform: uppercase;
 }
@@ -40,4 +49,8 @@ button:hover {
 
 button:active {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+p {
+  margin-bottom: 1rem;
 }
