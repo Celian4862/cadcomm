@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <>
@@ -14,9 +16,11 @@ export default function Home() {
           </h1>
           <button className="mt-7">learn more</button>
         </div>
-        <img
-          src="Home page background 1.png"
+        <Image
+          src="/Home page background 1.png"
           alt="Home page background"
+          width={1000}
+          height={1000}
           className="h-screen"
         />
       </div>
@@ -26,7 +30,7 @@ export default function Home() {
         </h2>
       </header>
       <div className="grid grid-cols-3 gap-x-13 px-15 pt-10">
-        <div className="col-span-2 bg-[#cff6ff]/40 p-5 shadow-[black_0_2px_10px]/15">
+        <div className="bg-bg-primary/40 col-span-2 p-5 shadow-[black_0_2px_10px]/15">
           <h3 className="text-tertiary mb-5 text-2xl font-bold">
             Archdiocese of Cebu: The Journey of Transformative Faith and Hope in
             the Orient
@@ -57,7 +61,13 @@ export default function Home() {
           </p>
           <button>Read More</button>
         </div>
-        <img src="History image.png" alt="History image" className="pb-10" />
+        <Image
+          src="/History image.png"
+          alt="History image"
+          width={1000}
+          height={1000}
+          className="pb-10"
+        />
       </div>
     </>
   );
