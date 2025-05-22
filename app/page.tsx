@@ -8,9 +8,9 @@ export default function Home() {
             nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.
           </p>
           <h1 className="pt-7 text-8xl font-black">
-            <span className="text-blue-dark">Finally</span>
+            <span className="text-tertiary">Finally</span>
             <br />
-            <span className="text-blue">500 Years!</span>
+            <span className="text-quaternary">500 Years!</span>
           </h1>
           <button className="mt-7">learn more</button>
         </div>
@@ -21,13 +21,13 @@ export default function Home() {
         />
       </div>
       <header>
-        <h2 className="bg-blue-darkest w-full p-4 text-center text-5xl font-bold tracking-widest text-white uppercase">
+        <h2 className="bg-tertiary w-full p-4 text-center text-5xl font-bold tracking-widest text-white uppercase">
           History
         </h2>
       </header>
       <div className="grid grid-cols-3 gap-x-13 px-15 pt-10">
         <div className="col-span-2 bg-[#cff6ff]/40 p-5 shadow-[black_0_2px_10px]/15">
-          <h3 className="text-blue-darker mb-5 text-2xl font-bold">
+          <h3 className="text-tertiary mb-5 text-2xl font-bold">
             Archdiocese of Cebu: The Journey of Transformative Faith and Hope in
             the Orient
           </h3>
