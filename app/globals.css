@@ -3,6 +3,7 @@
 
 :root {
   --background: white;
+  --button-shadow: rgba(0, 0, 0, 0.2);
   --color-bg-primary: #cff6ff;
   --color-primary: #242c5b;
   --color-secondary: #00033d;
@@ -14,6 +15,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: black;
+    --button-shadow: rgba(255, 255, 255, 0.8);
     --color-bg-primary: #1a2a32;
     --color-primary: #7f9cf5;
     --color-secondary: #5c6ac4;
@@ -41,7 +43,7 @@ button {
   background-color: var(--background);
   border: 1px solid var(--foreground);
   border-radius: 2rem;
-  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 2px var(--button-shadow);
   font-size: 0.8rem;
   font-weight: 800;
   letter-spacing: 1px;
@@ -55,7 +57,7 @@ button:hover {
 }
 
 button:active {
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 1px var(--button-shadow);
 }
 
 p {
