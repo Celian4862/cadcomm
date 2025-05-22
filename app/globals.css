@@ -6,6 +6,11 @@
   --button-bg-color: white;
   --button-color: black;
   --button-color-hover: #cff6ff;
+  --color-primary-bg: #cff6ff;
+  --color-primary: #242c5b;
+  --color-secondary: #00033d;
+  --color-tertiary: #0e227a;
+  --color-quaternary: #1957c4;
   --foreground: black;
   --p-color: var(--color-blue-darker);
 }
@@ -16,6 +21,11 @@
     --button-bg-color: black;
     --button-color: white;
     --button-color-hover: #020877;
+    --color-primary-bg: #1a2a32;
+    --color-primary: #a5b4fc;
+    --color-secondary: #00033d;
+    --color-tertiary: #0e227a;
+    --color-quaternary: #1957c4;
     --foreground: white;
     --p-color: var(--color-violet);
   }
