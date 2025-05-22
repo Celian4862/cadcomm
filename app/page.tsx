@@ -3,7 +3,7 @@ export default function Home() {
     <>
       <div className="grid grid-cols-2 items-end">
         <div className="m-20">
-          <p className="text-blue-darker w-100 font-bold dark:text-[#A5B4FC]">
+          <p className="w-100 font-bold dark:text-[#A5B4FC]">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
             nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.
           </p>
@@ -31,7 +31,7 @@ export default function Home() {
             Archdiocese of Cebu: The Journey of Transformative Faith and Hope in
             the Orient
           </h3>
-          <p className="text-blue-darker text-justify font-medium">
+          <p className="text-justify font-medium">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
             nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.Lorem
             ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
@@ -47,7 +47,7 @@ export default function Home() {
             sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
             euismod tincidunt ut laoreet dolore magna aliquam.
           </p>
-          <p className="text-blue-darker text-justify font-medium">
+          <p className="text-justify font-medium">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
             nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.Lorem
             ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
