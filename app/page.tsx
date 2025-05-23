@@ -8,15 +8,15 @@ export default function Home() {
         alt="Home page background"
         width={300}
         height={300}
-        className="absolute top-0 right-0 h-screen w-[50vw]"
+        className="absolute top-0 right-0 h-0 w-0 lg:h-screen lg:w-[50vw]"
       />
-      <div className="grid h-screen grid-cols-1 items-end">
-        <div className="m-20">
-          <p className="w-100 font-bold dark:text-[#A5B4FC]">
+      <div className="lg:grid lg:h-screen lg:grid-cols-1 lg:items-end">
+        <div className="m-10 lg:m-20">
+          <p className="font-bold lg:w-100 dark:text-[#A5B4FC]">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
             nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.
           </p>
-          <p className="pt-7 text-8xl font-black">
+          <p className="pt-7 text-6xl font-black lg:text-8xl">
             <span className="text-tertiary">Finally</span>
             <br />
             <span className="text-quaternary">500 Years!</span>
@@ -25,12 +25,12 @@ export default function Home() {
         </div>
       </div>
       <header>
-        <h2 className="bg-secondary w-full p-4 text-center text-5xl font-bold tracking-widest text-white uppercase">
+        <h2 className="bg-secondary w-full p-4 text-center text-4xl font-bold tracking-widest text-white uppercase lg:text-5xl">
           History
         </h2>
       </header>
-      <div className="grid grid-cols-3 gap-x-13 px-15 pt-10">
-        <div className="bg-bg-primary/40 col-span-2 p-5 shadow-[black_0_2px_10px]/15">
+      <div className="grid grid-cols-1 gap-y-5 px-10 pt-5 lg:grid-cols-3 lg:gap-x-13 lg:px-15 lg:pt-10">
+        <div className="bg-bg-primary/40 p-5 shadow-[black_0_2px_10px]/15 lg:col-span-2 lg:m-0">
           <h3 className="text-tertiary mb-5 text-2xl font-bold">
             Archdiocese of Cebu: The Journey of Transformative Faith and Hope in
             the Orient
@@ -70,11 +70,11 @@ export default function Home() {
         />
       </div>
       <header>
-        <h2 className="bg-secondary w-full p-4 text-center text-5xl font-bold tracking-widest text-white uppercase">
+        <h2 className="bg-secondary w-full p-4 text-center text-3xl font-bold tracking-widest text-white uppercase lg:text-5xl">
           Demographics
         </h2>
       </header>
-      <div className="grid grid-cols-3 gap-x-9 px-15 py-10 *:h-130">
+      <div className="grid grid-cols-1 gap-y-5 px-15 py-10 *:h-65 lg:grid-cols-3 lg:gap-x-9 lg:*:h-130">
         <div
           className="bg-cover bg-center"
           style={{ backgroundImage: 'url("/demographics1.png")' }}
