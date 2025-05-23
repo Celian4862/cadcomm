@@ -3,26 +3,17 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <Image
-        src="/Home page background 1.png"
-        alt="Home page background"
-        width={300}
-        height={300}
-        className="absolute top-0 right-0 -z-1 h-auto w-full opacity-30 md:h-screen md:w-auto lg:opacity-100"
-      />
-      <div className="lg:grid lg:h-screen lg:grid-cols-1 lg:items-end">
-        <div className="m-10 lg:m-20">
-          <p className="font-bold sm:w-100 dark:text-[#A5B4FC]">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.
-          </p>
-          <p className="pt-7 text-6xl font-black lg:text-8xl">
-            <span className="text-tertiary">Finally</span>
-            <br />
-            <span className="text-quaternary">500 Years!</span>
-          </p>
-          <button className="mt-7">learn more</button>
-        </div>
+      <div className="m-10 lg:mx-20">
+        <p className="font-bold sm:w-100 dark:text-[#A5B4FC]">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.
+        </p>
+        <p className="pt-7 text-6xl font-black lg:text-8xl">
+          <span className="text-tertiary">Finally</span>
+          <br />
+          <span className="text-quaternary">500 Years!</span>
+        </p>
+        <button className="mt-7">learn more</button>
       </div>
       <header>
         <h2 className="bg-secondary w-full p-4 text-center text-4xl font-bold tracking-widest text-white uppercase lg:text-5xl">
