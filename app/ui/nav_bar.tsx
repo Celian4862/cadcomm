@@ -8,12 +8,12 @@ export default function NavBar() {
         <Image
           src="/logo.png"
           alt="Website logo"
-          width={250}
+          width={130}
           height={0}
-          className="hidden xl:block"
+          className="hidden w-full lg:block"
         />
       </Link>
-      <nav className="*:text-secondary flex w-auto justify-around gap-x-15 pr-10 *:text-center *:text-[1.2rem] *:uppercase *:transition-colors *:duration-300 *:hover:text-[#7dd3fc] *:active:text-[#1a1a6b] *:dark:hover:text-[#ffffff] *:dark:active:text-[#38bdf8]">
+      <nav className="*:text-secondary flex w-auto justify-between gap-x-7 pr-10 *:py-5 *:text-center *:text-base *:uppercase *:transition-colors *:duration-300 *:hover:text-[#7dd3fc] *:active:text-[#1a1a6b] xl:gap-x-10 xl:*:text-xl *:dark:hover:text-[#ffffff] *:dark:active:text-[#38bdf8]">
         <Link href="/about-us">about us</Link>
         <Link href="/curia">curia</Link>
         <Link href="/clergy">clergy</Link>
