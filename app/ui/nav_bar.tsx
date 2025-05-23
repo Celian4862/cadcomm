@@ -13,7 +13,7 @@ export default function NavBar() {
           className="hidden xl:block"
         />
       </Link>
-      <nav className="*:text-secondary flex w-auto justify-around gap-x-15 pr-10 *:text-[1.2rem] *:uppercase *:transition-colors *:duration-300 *:hover:text-[#7dd3fc] *:active:text-[#1a1a6b] *:dark:hover:text-[#ffffff] *:dark:active:text-[#38bdf8]">
+      <nav className="*:text-secondary flex w-auto justify-around gap-x-15 pr-10 *:text-center *:text-[1.2rem] *:uppercase *:transition-colors *:duration-300 *:hover:text-[#7dd3fc] *:active:text-[#1a1a6b] *:dark:hover:text-[#ffffff] *:dark:active:text-[#38bdf8]">
         <Link href="/about-us">about us</Link>
         <Link href="/curia">curia</Link>
         <Link href="/clergy">clergy</Link>
