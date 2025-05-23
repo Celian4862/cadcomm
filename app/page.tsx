@@ -16,11 +16,11 @@ export default function Home() {
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
             nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.
           </p>
-          <h1 className="pt-7 text-8xl font-black">
+          <p className="pt-7 text-8xl font-black">
             <span className="text-tertiary">Finally</span>
             <br />
             <span className="text-quaternary">500 Years!</span>
-          </h1>
+          </p>
           <button className="mt-7">learn more</button>
         </div>
       </div>
