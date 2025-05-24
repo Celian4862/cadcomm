@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function NavBar() {
   return (
-    <div className="bg-bg-primary/85 mt-5 w-full items-center justify-between p-2 shadow-[0_2px_4px_-1px_rgba(0,0,0,0.15),0_-2px_12px_-1px_rgba(0,0,0,0.15)] transition-transform duration-300 lg:flex">
+    <div className="bg-bg-primary/85 mt-5 hidden w-full items-center justify-between p-2 shadow-[0_2px_4px_-1px_rgba(0,0,0,0.15),0_-2px_12px_-1px_rgba(0,0,0,0.15)] transition-transform duration-300 lg:flex">
       <Link href="/">
         <Image
           src="/logo.png"
