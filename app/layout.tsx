@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import "./globals.css";
 import NavBar from "@/app/ui/nav_bar";
 
