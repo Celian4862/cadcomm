@@ -65,26 +65,38 @@ export default function Home() {
           Demographics
         </h2>
       </header>
-      <div className="grid grid-cols-1 gap-y-5 px-15 py-10 *:grid *:h-65 *:grid-cols-1 *:items-end *:bg-cover *:bg-center *:p-10 *:text-center lg:grid-cols-3 lg:gap-x-9 lg:*:h-130">
+      <div className="grid grid-cols-1 gap-y-5 px-15 py-10 *:grid *:h-65 *:grid-cols-1 *:items-end *:bg-cover *:bg-center *:p-15 *:text-center lg:grid-cols-3 lg:gap-x-9 lg:*:h-130">
         <div style={{ backgroundImage: 'url("/demographics1.png")' }}>
           <div>
-            <span>10,23,123</span>
+            <span className="text-tertiary text-shadow-(color:--background)] text-7xl font-bold tracking-tight">
+              10,23,123
+            </span>
             <br />
-            <span>Catholics</span>
+            <span className="text-3xl font-bold text-white uppercase">
+              Catholics
+            </span>
           </div>
         </div>
         <div style={{ backgroundImage: 'url("/demographics2.png")' }}>
           <div>
-            <span>173</span>
+            <span className="text-tertiary text-shadow-(color:--background)] text-7xl font-bold tracking-tight">
+              173
+            </span>
             <br />
-            <span>Parishes</span>
+            <span className="text-3xl font-bold text-white uppercase">
+              Parishes
+            </span>
           </div>
         </div>
         <div style={{ backgroundImage: 'url("/demographics3.png")' }}>
           <div>
-            <span>9,999</span>
+            <span className="text-tertiary text-shadow-(color:--background)] text-7xl font-bold tracking-tight">
+              9,999
+            </span>
             <br />
-            <span>Priests</span>
+            <span className="text-3xl font-bold text-white uppercase">
+              Priests
+            </span>
           </div>
         </div>
       </div>
