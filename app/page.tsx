@@ -65,19 +65,28 @@ export default function Home() {
           Demographics
         </h2>
       </header>
-      <div className="grid grid-cols-1 gap-y-5 px-15 py-10 *:h-65 lg:grid-cols-3 lg:gap-x-9 lg:*:h-130">
-        <div
-          className="bg-cover bg-center"
-          style={{ backgroundImage: 'url("/demographics1.png")' }}
-        ></div>
-        <div
-          className="bg-cover bg-center"
-          style={{ backgroundImage: 'url("/demographics2.png")' }}
-        ></div>
-        <div
-          className="bg-cover bg-center"
-          style={{ backgroundImage: 'url("/demographics3.png")' }}
-        ></div>
+      <div className="grid grid-cols-1 gap-y-5 px-15 py-10 *:grid *:h-65 *:grid-cols-1 *:items-end *:bg-cover *:bg-center *:p-10 *:text-center lg:grid-cols-3 lg:gap-x-9 lg:*:h-130">
+        <div style={{ backgroundImage: 'url("/demographics1.png")' }}>
+          <div>
+            <span>10,23,123</span>
+            <br />
+            <span>Catholics</span>
+          </div>
+        </div>
+        <div style={{ backgroundImage: 'url("/demographics2.png")' }}>
+          <div>
+            <span>173</span>
+            <br />
+            <span>Parishes</span>
+          </div>
+        </div>
+        <div style={{ backgroundImage: 'url("/demographics3.png")' }}>
+          <div>
+            <span>9,999</span>
+            <br />
+            <span>Priests</span>
+          </div>
+        </div>
       </div>
     </>
   );
