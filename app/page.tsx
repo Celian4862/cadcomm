@@ -76,35 +76,34 @@ export default function Home() {
         <div className="grid grid-cols-1 gap-y-5 px-15 py-10 *:grid *:h-65 *:grid-cols-1 *:items-end *:bg-cover *:bg-center *:p-15 *:text-center lg:grid-cols-3 lg:gap-x-9 lg:*:h-130">
           <div style={{ backgroundImage: 'url("/demographics1.png")' }}>
             <div>
-              <span className="text-tertiary text-[12vw] font-bold tracking-tight text-shadow-(color:--background) text-shadow-[0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px] sm:text-[10vw] md:text-[7vw] lg:text-[4.5vw]">
+              <div className="text-tertiary text-[12vw] font-bold tracking-tight text-shadow-(color:--background) text-shadow-[0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px] sm:text-[10vw] md:text-[7vw] lg:text-[4.5vw]">
                 10,23,123
-              </span>
-              <br />
-              <span className="text-3xl font-bold text-white uppercase">
+              </div>
+              <div className="text-3xl font-bold text-white uppercase">
                 Catholics
-              </span>
+              </div>
             </div>
           </div>
           <div style={{ backgroundImage: 'url("/demographics2.png")' }}>
             <div>
-              <span className="text-tertiary text-[12vw] font-bold tracking-tight text-shadow-(color:--background) text-shadow-[0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px] sm:text-[10vw] md:text-[7vw] lg:text-[4.5vw]">
+              <div className="text-tertiary text-[12vw] font-bold tracking-tight text-shadow-(color:--background) text-shadow-[0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px] sm:text-[10vw] md:text-[7vw] lg:text-[4.5vw]">
                 173
-              </span>
-              <br />
-              <span className="text-3xl font-bold text-white uppercase">
+              </div>
+
+              <div className="text-3xl font-bold text-white uppercase">
                 Parishes
-              </span>
+              </div>
             </div>
           </div>
           <div style={{ backgroundImage: 'url("/demographics3.png")' }}>
             <div>
-              <span className="text-tertiary text-[12vw] font-bold tracking-tight text-shadow-(color:--background) text-shadow-[0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px] sm:text-[10vw] md:text-[7vw] lg:text-[4.5vw]">
+              <div className="text-tertiary text-[12vw] font-bold tracking-tight text-shadow-(color:--background) text-shadow-[0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px,0_0_5px] sm:text-[10vw] md:text-[7vw] lg:text-[4.5vw]">
                 9,999
-              </span>
-              <br />
-              <span className="text-3xl font-bold text-white uppercase">
+              </div>
+
+              <div className="text-3xl font-bold text-white uppercase">
                 Priests
-              </span>
+              </div>
             </div>
           </div>
         </div>
