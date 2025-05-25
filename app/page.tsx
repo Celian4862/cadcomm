@@ -1,5 +1,6 @@
 import Image from "next/image";
 import HomeButton from "@/app/ui/home_button";
+import NewsCard from "./ui/news_card";
 
 export default function Home() {
   return (
@@ -115,22 +116,13 @@ export default function Home() {
           </h2>
         </header>
         <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
-          <div>
-            <div>Priest Ordination</div>
-            <HomeButton>Read more</HomeButton>
-          </div>
-          <div>
-            <div>Fiesta Celebraion</div>
-            <HomeButton>Read more</HomeButton>
-          </div>
-          <div>
-            <div>Youth Day</div>
-            <HomeButton>Read more</HomeButton>
-          </div>
-          <div>
-            <div>Youth Day</div>
-            <HomeButton>Read more</HomeButton>
-          </div>
+          <NewsCard text="Priest Ordination" img_url="/Priest Ordination.png" />
+          <NewsCard
+            text="Fiesta Celebration"
+            img_url="/Fiesta Celebration.png"
+          />
+          <NewsCard text="Youth Day" img_url="/Youth Day.png" />
+          <NewsCard text="Youth Day" img_url="/Youth Day.png" />
         </div>
       </section>
     </>
