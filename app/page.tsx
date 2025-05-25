@@ -1,4 +1,5 @@
 import Image from "next/image";
+import HomeButton from "@/app/ui/home_button";
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
             <br />
             <span className="text-quaternary">500 Years!</span>
           </p>
-          <button className="mt-7">learn more</button>
+          <HomeButton>Learn more</HomeButton>
         </div>
       </section>
       <section>
@@ -55,7 +56,7 @@ export default function Home() {
               sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
               aliquam.
             </p>
-            <button>Read More</button>
+            <HomeButton>Read More</HomeButton>
           </div>
           <Image
             src="/History image.png"
@@ -117,19 +118,19 @@ export default function Home() {
         <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
           <div>
             <div>Priest Ordination</div>
-            <button>Read more</button>
+            <HomeButton>Read more</HomeButton>
           </div>
           <div>
             <div>Fiesta Celebraion</div>
-            <button>Read more</button>
+            <HomeButton>Read more</HomeButton>
           </div>
           <div>
             <div>Youth Day</div>
-            <button>Read more</button>
+            <HomeButton>Read more</HomeButton>
           </div>
           <div>
             <div>Youth Day</div>
-            <button>Read more</button>
+            <HomeButton>Read more</HomeButton>
           </div>
         </div>
       </section>

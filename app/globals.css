@@ -39,27 +39,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-button {
-  background-color: var(--background);
-  border: 1px solid var(--foreground);
-  border-radius: 2rem;
-  box-shadow: 0 3px 2px var(--button-shadow);
-  font-size: 0.8rem;
-  font-weight: 800;
-  letter-spacing: 1px;
-  margin: 1.5rem 0;
-  padding: 0.7rem 2rem;
-  text-transform: uppercase;
-}
-
-button:hover {
-  background: var(--color-bg-primary);
-}
-
-button:active {
-  box-shadow: 0 1px 1px var(--button-shadow);
-}
-
 p {
   color: var(--color-primary);
   margin-bottom: 1rem;
