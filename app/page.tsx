@@ -108,6 +108,31 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section>
+        <header>
+          <h2 className="bg-secondary w-full p-4 text-center text-4xl font-bold tracking-widest text-white uppercase lg:text-5xl">
+            News Updates
+          </h2>
+        </header>
+        <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
+          <div>
+            <div>Priest Ordination</div>
+            <button>Read more</button>
+          </div>
+          <div>
+            <div>Fiesta Celebraion</div>
+            <button>Read more</button>
+          </div>
+          <div>
+            <div>Youth Day</div>
+            <button>Read more</button>
+          </div>
+          <div>
+            <div>Youth Day</div>
+            <button>Read more</button>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
