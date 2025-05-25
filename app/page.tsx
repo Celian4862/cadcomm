@@ -115,7 +115,7 @@ export default function Home() {
             News Updates
           </h2>
         </header>
-        <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-10 p-10 text-center *:h-100 md:grid-cols-2 lg:grid-cols-4">
           <NewsCard text="Priest Ordination" img_url="/Priest Ordination.png" />
           <NewsCard
             text="Fiesta Celebration"

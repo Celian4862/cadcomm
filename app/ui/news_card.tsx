@@ -9,7 +9,7 @@ export default function NewsCard({
 }) {
   return (
     <div className="" style={{ backgroundImage: `url("${img_url}")` }}>
-      <div>{text}</div>
+      <div className="p-5 text-3xl font-bold uppercase">{text}</div>
       <HomeButton>Read more</HomeButton>
     </div>
   );
