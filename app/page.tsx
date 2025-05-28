@@ -125,6 +125,14 @@ export default function Home() {
           <NewsCard text="Youth Day" img_url="/Youth Day.png" />
         </div>
       </section>
+      <section>
+        <header>
+          <h2 className="bg-secondary w-full p-4 text-center text-4xl font-bold tracking-widest text-white uppercase lg:text-5xl">
+            Connect with us!
+          </h2>
+        </header>
+        <div className="flex"></div>
+      </section>
     </>
   );
 }
