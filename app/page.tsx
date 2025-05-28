@@ -1,6 +1,8 @@
 import Image from "next/image";
 import HomeButton from "@/app/ui/home_button";
 import NewsCard from "./ui/news_card";
+import { FaFacebookF, FaYoutube, FaInstagram } from "react-icons/fa";
+import { FaXTwitter, FaTiktok } from "react-icons/fa6";
 
 export default function Home() {
   return (
@@ -131,7 +133,63 @@ export default function Home() {
             Connect with us!
           </h2>
         </header>
-        <div className="flex"></div>
+        <div className="flex justify-center gap-8 py-8">
+          <a
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook"
+          >
+            <span className="text-4xl text-[#1877F3]">
+              <FaFacebookF aria-hidden="true" />
+              <span className="sr-only">Facebook</span>
+            </span>
+          </a>
+          <a
+            href="https://x.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="X"
+          >
+            <span className="text-4xl text-black dark:text-white">
+              <FaXTwitter aria-hidden="true" />
+              <span className="sr-only">X</span>
+            </span>
+          </a>
+          <a
+            href="https://tiktok.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="TikTok"
+          >
+            <span className="text-4xl text-black dark:text-white">
+              <FaTiktok aria-hidden="true" />
+              <span className="sr-only">TikTok</span>
+            </span>
+          </a>
+          <a
+            href="https://youtube.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="YouTube"
+          >
+            <span className="text-4xl text-[#FF0000]">
+              <FaYoutube aria-hidden="true" />
+              <span className="sr-only">YouTube</span>
+            </span>
+          </a>
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+          >
+            <span className="text-4xl text-[#E1306C]">
+              <FaInstagram aria-hidden="true" />
+              <span className="sr-only">Instagram</span>
+            </span>
+          </a>
+        </div>
       </section>
     </>
   );
