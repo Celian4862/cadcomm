@@ -108,11 +108,11 @@ export default function Page() {
             and colleges, resigned to the will of God, commenced the work of
             reconstruction. His labor did not pass unrecognized for on August
             25, 1949, he was appointed by the Holy Father Pius XII as Coadjutor
-            to Archbishop Michael O'Doherty of Manila with right of succession
-            (and Apostolic Administrator sede plena). With the death of the
-            Archbishop, he took canonical possession of the archiepiscopal See
-            of Manila with the distinction of being its first Filipino
-            Archbishop (September 29, 1949).
+            to Archbishop Michael O&apos;Doherty of Manila with right of
+            succession (and Apostolic Administrator sede plena). With the death
+            of the Archbishop, he took canonical possession of the
+            archiepiscopal See of Manila with the distinction of being its first
+            Filipino Archbishop (September 29, 1949).
           </p>
           <p>
             Archbishop Gabriel Reyes has the distinction of being succeeded by

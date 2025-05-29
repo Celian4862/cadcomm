@@ -22,7 +22,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               href="/about-us/archdioceses-coat-of-arms"
               className="bg-bg-primary text-secondary"
             >
-              Archdiocese's Coat of Arms
+              Archdiocese&apos;s Coat of Arms
             </Link>
           </div>
         </aside>
