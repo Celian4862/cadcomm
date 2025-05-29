@@ -8,66 +8,60 @@ export default function Page() {
           Previous Bishops of Cebu
         </h1>
       </header>
-      <section>
+      <section className="mb-15">
         <header>
           <h2 className="text-tertiary mb-5 text-5xl font-bold uppercase">
             Gabriel Reyes
           </h2>
         </header>
         <div className="text-justify">
-          <div className="gap-7 sm:grid sm:grid-cols-3">
-            <div className="col-span-2">
-              <p>
-                Archbishop Gabriel M. Reyes was born on March 24, 1892, in
-                Kalibo, Capiz, to Filipino parents. At the age of 13, he entered
-                the Seminary of Jaro which was then directed by the Vincentian
-                Fathers. Bishop Dennis Dougherty of Jaro, who later became
-                Cardinal Archbishop of Philadelphia, U.S.A., ordained him on
-                March 27, 1915, after which he was immediately appointed
-                Coadjutor Parish Priest of the Cardinal becoming in a few months
-                its Parish Priest.
-              </p>
-              <p>
-                As Parish Priest of Balasan (1915) he covered sixteen small
-                islands many of which of neither roads nor chapels nor convents,
-                but only ruins and an increasing number of Aglipayans and
-                Protestants. These became the field of action of the energetic
-                Gabriel until he became a Parish Priest of Capiz, Capiz (1918).
-              </p>
-              <p>
-                On July 20, 1820, Bishop James McClosky chose him to be the
-                Diocesan Chancellor and Secretary and, at the same time, a
-                Parish Priest of Sta. Barbara. In 1927, he became Vicar General
-                of Jaro.
-              </p>
-              <p>
-                On October 11, 1932, Monsignor Gabriel Reyes was ordained Bishop
-                of Cebu in the Cardinal of Jaro by the Apostolic Nuncio,
-                Archbishop Guillermo Piani, S.D.B., with the assistance of
-                Bishop James McClosky of Jaro and Bishop Alfredo Verzosa of
-                Lipa. Two days later, he was installed in Cebu.
-              </p>
-              <p>
-                On April 28, 1934, Cebu, after more than three centuries was
-                elevated by Pope Pius XI into an Archdiocese with Bishop Gabriel
-                Reyes as the First Archbishop. As the Ecclesiastical Province of
-                Santisimo Nombre de Jesus Cebu had for its suffragans in 1934
-                the following: the Diocese of Jaro (1865), Calbayog (1910),
-                Zamboanga (1910), Bacolod (1932 detached from Manila), and
-                Cagayan de Oro (1933).
-              </p>
-            </div>
-            {/* 2025.05.28, 23:13: There should be a way to make the text
-            automatically wrap around the image instead of statically forcing
-            the text and the image to be part of a grid. */}
+          <div className="float-center relative m-auto w-full max-w-xs md:float-right md:mb-5 md:ml-7 md:max-w-sm">
             <Image
               src="/gabriel-reyes.png"
               alt="Gabriel Reyes"
               width={500}
               height={500}
-              className="mb-5 rounded-lg shadow-lg"
+              className="h-auto w-full rounded-lg shadow-lg"
+              style={{ objectFit: "cover" }}
             />
           </div>
+          <p>
+            Archbishop Gabriel M. Reyes was born on March 24, 1892, in Kalibo,
+            Capiz, to Filipino parents. At the age of 13, he entered the
+            Seminary of Jaro which was then directed by the Vincentian Fathers.
+            Bishop Dennis Dougherty of Jaro, who later became Cardinal
+            Archbishop of Philadelphia, U.S.A., ordained him on March 27, 1915,
+            after which he was immediately appointed Coadjutor Parish Priest of
+            the Cardinal becoming in a few months its Parish Priest.
+          </p>
+          <p>
+            As Parish Priest of Balasan (1915) he covered sixteen small islands
+            many of which of neither roads nor chapels nor convents, but only
+            ruins and an increasing number of Aglipayans and Protestants. These
+            became the field of action of the energetic Gabriel until he became
+            a Parish Priest of Capiz, Capiz (1918).
+          </p>
+          <p>
+            On July 20, 1820, Bishop James McClosky chose him to be the Diocesan
+            Chancellor and Secretary and, at the same time, a Parish Priest of
+            Sta. Barbara. In 1927, he became Vicar General of Jaro.
+          </p>
+          <p>
+            On October 11, 1932, Monsignor Gabriel Reyes was ordained Bishop of
+            Cebu in the Cardinal of Jaro by the Apostolic Nuncio, Archbishop
+            Guillermo Piani, S.D.B., with the assistance of Bishop James
+            McClosky of Jaro and Bishop Alfredo Verzosa of Lipa. Two days later,
+            he was installed in Cebu.
+          </p>
+          <p>
+            On April 28, 1934, Cebu, after more than three centuries was
+            elevated by Pope Pius XI into an Archdiocese with Bishop Gabriel
+            Reyes as the First Archbishop. As the Ecclesiastical Province of
+            Santisimo Nombre de Jesus Cebu had for its suffragans in 1934 the
+            following: the Diocese of Jaro (1865), Calbayog (1910), Zamboanga
+            (1910), Bacolod (1932 detached from Manila), and Cagayan de Oro
+            (1933).
+          </p>
           <p>
             With the able hands of Archbishop Gabriel Reyes, the Archdiocese
             began to embark on a series of noble projects designed to nurture
@@ -127,6 +121,13 @@ export default function Page() {
             him in Manila.
           </p>
         </div>
+      </section>
+      <section>
+        <header>
+          <h2 className="text-tertiary mb-5 text-5xl font-bold uppercase">
+            Julio Rosales
+          </h2>
+        </header>
       </section>
     </section>
   );
