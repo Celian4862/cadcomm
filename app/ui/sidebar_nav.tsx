@@ -29,7 +29,7 @@ export default function SidebarNav() {
             className={
               pathname === link.href
                 ? "text-bg-primary bg-tertiary"
-                : "bg-bg-primary text-secondary border border-solid border-black/20"
+                : "bg-bg-primary text-secondary border border-solid border-(--foreground)/20"
             }
           >
             {link.label}
