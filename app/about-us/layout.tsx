@@ -19,6 +19,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               History Timeline
             </Link>
             <Link
+              href="/about-us/archbishop-of-cebu"
+              className="bg-bg-primary text-secondary"
+            >
+              Archbishop of Cebu
+            </Link>
+            <Link
               href="/about-us/archdioceses-coat-of-arms"
               className="bg-bg-primary text-secondary"
             >
