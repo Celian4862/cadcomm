@@ -27,8 +27,8 @@ export default function Home() {
             History
           </h2>
         </header>
-        <div className="grid grid-cols-1 gap-y-5 px-10 pt-5 md:grid-cols-2 md:gap-x-13 md:px-15 md:pt-10 lg:grid-cols-3">
-          <div className="bg-bg-primary/40 p-5 shadow-[black_0_2px_10px]/15 md:col-span-1 md:m-0 lg:col-span-2">
+        <div className="grid grid-cols-1 gap-y-5 px-10 pt-5 lg:grid-cols-3 lg:gap-x-5">
+          <div className="bg-bg-primary/40 p-5 shadow-[black_0_2px_10px]/15 lg:col-span-2">
             <h3 className="text-tertiary mb-5 text-2xl font-bold">
               Archdiocese of Cebu: The Journey of Transformative Faith and Hope
               in the Orient
@@ -70,9 +70,9 @@ export default function Home() {
           <Image
             src="/History image.png"
             alt="History image"
-            width={1000}
-            height={1000}
-            className="pb-10"
+            width={500}
+            height={500}
+            className="mx-auto h-auto w-100 pb-10"
           />
         </div>
       </section>
