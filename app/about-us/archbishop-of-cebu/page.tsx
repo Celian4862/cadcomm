@@ -12,7 +12,7 @@ export default function Page() {
       <div className="text-justify">
         <FloatingImage
           src="archbishop-palma.png"
-          alt_text="Archbishop Jose S. Palma"
+          alt="Archbishop Jose S. Palma"
         />
         <p>
           Jose S. Palma was born on March 19, 1950 to Ruperto and Ester in the

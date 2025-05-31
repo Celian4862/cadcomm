@@ -15,7 +15,7 @@ export default function Page() {
           </h2>
         </header>
         <div className="text-justify">
-          <FloatingImage src="gabriel-reyes.png" alt_text="Gabriel Reyes" />
+          <FloatingImage src="gabriel-reyes.png" alt="Gabriel Reyes" />
           <p>
             Archbishop Gabriel M. Reyes was born on March 24, 1892, in Kalibo,
             Capiz, to Filipino parents. At the age of 13, he entered the
@@ -120,7 +120,7 @@ export default function Page() {
           </h2>
         </header>
         <div className="text-justify">
-          <FloatingImage src="julio-rosales.png" alt_text="Julio Rosales" />
+          <FloatingImage src="julio-rosales.png" alt="Julio Rosales" />
           <p>
             Julio Rosales y Ras also known as Julio Rosales, the second
             Archbishop of Cebu, was a Filipino cardinal of the Roman Catholic
@@ -161,7 +161,7 @@ export default function Page() {
           </h2>
         </header>
         <div className="text-justify">
-          <FloatingImage src="ricardo-vidal.png" alt_text="Ricardo Vidal" />
+          <FloatingImage src="ricardo-vidal.png" alt="Ricardo Vidal" />
           <p>
             Cardinal Ricardo J. Vidal, Archbishop Emeritus of Cebu
             (Philippines), was born on 6 February 1931 in Mogpoc, Philippines.
