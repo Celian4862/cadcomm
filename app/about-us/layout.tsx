@@ -1,4 +1,3 @@
-import Link from "next/link";
 import SidebarNav from "../ui/sidebar_nav";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
