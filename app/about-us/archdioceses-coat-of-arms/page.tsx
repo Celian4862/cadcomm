@@ -1,5 +1,4 @@
 import Image from "next/image";
-import FloatingImage from "@/app/ui/floating_image";
 
 export default function Page() {
   return (
@@ -139,8 +138,8 @@ export default function Page() {
               Our Lady and her motherly mantle of love and compassion for the
               Cebuano faithful
             </strong>{" "}
-            as also portrayed by the monogram "Auspice Maria" (Under the
-            Protection of Mary) with a gold crown (above), a silver crescent
+            as also portrayed by the monogram &quot;Auspice Maria&quot; (Under
+            the Protection of Mary) with a gold crown (above), a silver crescent
             (below), and gold gloriole (around the monogram).
           </p>
           <p>
