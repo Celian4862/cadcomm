@@ -33,32 +33,38 @@ export default function Home() {
               Archdiocese of Cebu: The Journey of Transformative Faith and Hope
               in the Orient
             </h3>
-            <p className="text-justify font-medium">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna
-              aliquam.Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-              sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-              aliquam.Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-              sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-              aliquam.Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-              sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-              aliquam.Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-              sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-              aliquam.Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-              sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-              aliquam.Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-              sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-              aliquam.
-            </p>
-            <p className="text-justify font-medium">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna
-              aliquam.Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-              sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-              aliquam.Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-              sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-              aliquam.
-            </p>
+            <div className="*:text-justify *:font-medium">
+              <p>
+                The beginnings of the Archdiocese of Cebu began with the arrival
+                of Ferdinand Magellan&apos;s fleet in the town of Zubu, ruled by
+                Rajah Humabon and his Queen. The encounter between two different
+                cultures resulted in the baptism of Humabon&apos;s 800 subjects
+                and merited for the Queen a gift from the conquistadores--a
+                small statue of the Child Jesus in kingly regalia, the Santo
+                Niño.
+              </p>
+              <p>
+                The Spanish foothold was resisted by Lapulapu, the chieftain of
+                Mactan, and Magellan perished in what was a traditional rivalry
+                between two chieftains. The defeat of the Spaniards proved the
+                superiority of Lapulapu and pushed Cebuanos back into paganism.
+              </p>
+              <p>
+                The expedition of Miguel Lopez de Legazpi in 1567 marked the
+                evangelization of Cebu and the Philippine islands. This time,
+                the Cebuanos were determined to fight but Legazpi too, had come
+                prepared and had the village bombarded before coming ashore for
+                crown and cross.
+              </p>
+              <p>
+                The Spanish soldier Juan de Camus found the image of the Santo
+                Niño and the Cebuanos&apos; stillborn faith among the ashes and
+                debris. But the cross was soon to be planted again in their
+                village as a reminder that while the Cebuanos resisted the
+                authority of the Spaniards, their hearts had fallen for the
+                smile of the Little Child who holds the world in his hand.
+              </p>
+            </div>
             <ReadMore />
           </div>
           <Image
