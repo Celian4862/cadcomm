@@ -1,5 +1,5 @@
 import Image from "next/image";
-import HomeButton from "@/app/ui/home_button";
+import ReadMore from "@/app/ui/home_button";
 import NewsCard from "./ui/news_card";
 import { FaFacebookF, FaYoutube, FaInstagram } from "react-icons/fa";
 import { FaXTwitter, FaTiktok } from "react-icons/fa6";
@@ -18,7 +18,7 @@ export default function Home() {
             <br />
             <span className="text-quaternary">500 Years!</span>
           </p>
-          <HomeButton>Learn more</HomeButton>
+          <ReadMore />
         </div>
       </section>
       <section>
@@ -59,7 +59,7 @@ export default function Home() {
               sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
               aliquam.
             </p>
-            <HomeButton>Read More</HomeButton>
+            <ReadMore />
           </div>
           <Image
             src="/History image.png"

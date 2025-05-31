@@ -1,4 +1,4 @@
-import HomeButton from "@/app/ui/home_button";
+import ReadMore from "@/app/ui/home_button";
 
 export default function NewsCard({
   text,
@@ -18,7 +18,7 @@ export default function NewsCard({
         </div>
       </div>
       <div className="p-5">
-        <HomeButton>Read more</HomeButton>
+        <ReadMore />
       </div>
     </div>
   );
