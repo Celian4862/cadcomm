@@ -4,13 +4,13 @@ export default function Page() {
   return (
     <section>
       <header>
-        <h1 className="text-tertiary mb-10 text-5xl font-bold uppercase">
+        <h1 className="text-tertiary mb-10 text-5xl font-black uppercase">
           Previous Bishops of Cebu
         </h1>
       </header>
       <section className="mb-15">
         <header>
-          <h2 className="text-tertiary mb-5 text-5xl font-bold uppercase">
+          <h2 className="text-tertiary mb-5 text-5xl font-black uppercase">
             Gabriel Reyes
           </h2>
         </header>
@@ -124,7 +124,7 @@ export default function Page() {
       </section>
       <section className="mb-15">
         <header>
-          <h2 className="text-tertiary mb-5 text-5xl font-bold uppercase">
+          <h2 className="text-tertiary mb-5 text-5xl font-black uppercase">
             Julio Rosales
           </h2>
         </header>
@@ -174,57 +174,60 @@ export default function Page() {
       </section>
       <section className="mb-15">
         <header>
-          <h2 className="text-tertiary mb-5 text-5xl font-bold uppercase">
+          <h2 className="text-tertiary mb-5 text-5xl font-black uppercase">
             Ricardo Vidal
           </h2>
         </header>
-        <div className="float-center relative m-auto w-full max-w-xs md:float-right md:mb-5 md:ml-7 md:max-w-sm">
-          <Image
-            src="/ricardo-vidal.png"
-            alt="Ricardo Vidal"
-            width={500}
-            height={500}
-            className="mb-5 w-full rounded-lg shadow-lg"
-            style={{ objectFit: "cover" }}
-          />
+        <div className="text-justify">
+          <div className="float-center relative m-auto w-full max-w-xs md:float-right md:mb-5 md:ml-7 md:max-w-sm">
+            <Image
+              src="/ricardo-vidal.png"
+              alt="Ricardo Vidal"
+              width={500}
+              height={500}
+              className="mb-5 w-full rounded-lg shadow-lg"
+              style={{ objectFit: "cover" }}
+            />
+          </div>
+          <p>
+            Cardinal Ricardo J. Vidal, Archbishop Emeritus of Cebu
+            (Philippines), was born on 6 February 1931 in Mogpoc, Philippines.
+            He did his studies at the minor seminary of the Most Holy Rosary
+            (which later assumed the title of Our Lady of Carmel) and at the
+            seminary of San Carlo.
+          </p>
+          <p>
+            He was ordained on 17 March 1956. The Bishop of Lucena entrusted him
+            as spiritual director of the local seminary of Mount Carmel. He then
+            became superior of the same institute and was dedicated to the
+            formation of the young candidates to priesthood until 10 September
+            1971, when he was named Coadjutor Bishop of Malolos, Bulacan, and
+            was elected to the titular church of Claterna. He received episcopal
+            ordination on 30 November 1971. On 22 August 1973, he was named
+            Archbishop of Lipa in Batangas.
+          </p>
+          <p>
+            On 13 April 1981, he was named Coadjutor with the right of
+            succession to the Archbishop of Cebu, Cardinal Julio Rosales. He was
+            named Archbishop on 24 August 1982.
+          </p>
+          <p>
+            He served as president of the Bishops&apos; Commission for Vocations
+            within the Catholic Bishops&apos; Conference of the Philippines. He
+            was also vice-president of the Catholic Bishops&apos; Conference and
+            then president from 1985 to 1987.
+          </p>
+          <p>Archbishop Emeritus of Cebu (Philippines), 15 October 2010.</p>
+          <p>
+            He participated in the conclave of April 2005, which elected Pope
+            Benedict XVI.
+          </p>
+          <p>
+            Created and proclaimed Cardinal by St. John Paul II in the
+            Consistory of 25 May 1985, of the Title of Ss. Pietro e Paolo in Via
+            Ostiense (Sts. Peter and Paul in Via Ostiense).
+          </p>
         </div>
-        <p>
-          Cardinal Ricardo J. Vidal, Archbishop Emeritus of Cebu (Philippines),
-          was born on 6 February 1931 in Mogpoc, Philippines. He did his studies
-          at the minor seminary of the Most Holy Rosary (which later assumed the
-          title of Our Lady of Carmel) and at the seminary of San Carlo.
-        </p>
-        <p>
-          He was ordained on 17 March 1956. The Bishop of Lucena entrusted him
-          as spiritual director of the local seminary of Mount Carmel. He then
-          became superior of the same institute and was dedicated to the
-          formation of the young candidates to priesthood until 10 September
-          1971, when he was named Coadjutor Bishop of Malolos, Bulacan, and was
-          elected to the titular church of Claterna. He received episcopal
-          ordination on 30 November 1971. On 22 August 1973, he was named
-          Archbishop of Lipa in Batangas.
-        </p>
-        <p>
-          On 13 April 1981, he was named Coadjutor with the right of succession
-          to the Archbishop of Cebu, Cardinal Julio Rosales. He was named
-          Archbishop on 24 August 1982.
-        </p>
-        <p>
-          He served as president of the Bishops&apos; Commission for Vocations
-          within the Catholic Bishops&apos; Conference of the Philippines. He
-          was also vice-president of the Catholic Bishops&apos; Conference and
-          then president from 1985 to 1987.
-        </p>
-        <p>Archbishop Emeritus of Cebu (Philippines), 15 October 2010.</p>
-        <p>
-          He participated in the conclave of April 2005, which elected Pope
-          Benedict XVI.
-        </p>
-        <p>
-          Created and proclaimed Cardinal by St. John Paul II in the Consistory
-          of 25 May 1985, of the Title of Ss. Pietro e Paolo in Via Ostiense
-          (Sts. Peter and Paul in Via Ostiense).
-        </p>
       </section>
     </section>
   );
