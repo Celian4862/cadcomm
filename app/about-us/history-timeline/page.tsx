@@ -122,12 +122,109 @@ export default function Page() {
           </p>
         </div>
       </section>
-      <section>
+      <section className="mb-15">
         <header>
           <h2 className="text-tertiary mb-5 text-5xl font-bold uppercase">
             Julio Rosales
           </h2>
         </header>
+        <div className="text-justify">
+          <div className="float-center relative m-auto w-full max-w-xs md:float-right md:mb-5 md:ml-7 md:max-w-sm">
+            <Image
+              src="/julio-rosales.png"
+              alt="Julio Rosales"
+              width={500}
+              height={500}
+              className="mb-5 w-full rounded-lg shadow-lg"
+              style={{ objectFit: "cover" }}
+            />
+          </div>
+          <p>
+            Julio Rosales y Ras also known as Julio Rosales, the second
+            Archbishop of Cebu, was a Filipino cardinal of the Roman Catholic
+            Church.
+          </p>
+          <p>
+            A native of Calbayog, he made his studies at the Seminary of
+            Calbayog and was ordained in his hometown on June 2, 1929.
+          </p>
+          <p>
+            From 1929 to 1946, he did pastoral work in the diocese of Calbayog.
+            He was consecrated bishop of Tagbilaran on September 21, 1946.
+          </p>
+          <p>
+            On December 17, 1949, Rosales was promoted to the metropolitan see
+            of Cebu. During his reign, in 1965, Cebu hosted the celebrations for
+            the 400th anniversary of the Christianization of the Philippines.
+          </p>
+          <p>
+            Rosales was elevated to the College of Cardinals by Pope Paul VI in
+            the consistory of April 28, 1969, and given the titular church of
+            Sacro Cuore di Gesù agonizzante a Vitinia. He also participated in
+            both conclaves of 1978. He resigned the pastoral government of his
+            archdiocese, on August 24, 1982, and died less than a year later in
+            Cebu City, his beloved episcopal city.
+          </p>
+          <p>
+            Julio Rosales is buried at the mausoleum of the Roman Catholic
+            Metropolitan Cathedral in Cebu City, Cebu, Philippines. His mementos
+            are currently on display at the Cathedral Museum of Cebu.
+          </p>
+        </div>
+      </section>
+      <section className="mb-15">
+        <header>
+          <h2 className="text-tertiary mb-5 text-5xl font-bold uppercase">
+            Ricardo Vidal
+          </h2>
+        </header>
+        <div className="float-center relative m-auto w-full max-w-xs md:float-right md:mb-5 md:ml-7 md:max-w-sm">
+          <Image
+            src="/ricardo-vidal.png"
+            alt="Ricardo Vidal"
+            width={500}
+            height={500}
+            className="mb-5 w-full rounded-lg shadow-lg"
+            style={{ objectFit: "cover" }}
+          />
+        </div>
+        <p>
+          Cardinal Ricardo J. Vidal, Archbishop Emeritus of Cebu (Philippines),
+          was born on 6 February 1931 in Mogpoc, Philippines. He did his studies
+          at the minor seminary of the Most Holy Rosary (which later assumed the
+          title of Our Lady of Carmel) and at the seminary of San Carlo.
+        </p>
+        <p>
+          He was ordained on 17 March 1956. The Bishop of Lucena entrusted him
+          as spiritual director of the local seminary of Mount Carmel. He then
+          became superior of the same institute and was dedicated to the
+          formation of the young candidates to priesthood until 10 September
+          1971, when he was named Coadjutor Bishop of Malolos, Bulacan, and was
+          elected to the titular church of Claterna. He received episcopal
+          ordination on 30 November 1971. On 22 August 1973, he was named
+          Archbishop of Lipa in Batangas.
+        </p>
+        <p>
+          On 13 April 1981, he was named Coadjutor with the right of succession
+          to the Archbishop of Cebu, Cardinal Julio Rosales. He was named
+          Archbishop on 24 August 1982.
+        </p>
+        <p>
+          He served as president of the Bishops&apos; Commission for Vocations
+          within the Catholic Bishops&apos; Conference of the Philippines. He
+          was also vice-president of the Catholic Bishops&apos; Conference and
+          then president from 1985 to 1987.
+        </p>
+        <p>Archbishop Emeritus of Cebu (Philippines), 15 October 2010.</p>
+        <p>
+          He participated in the conclave of April 2005, which elected Pope
+          Benedict XVI.
+        </p>
+        <p>
+          Created and proclaimed Cardinal by St. John Paul II in the Consistory
+          of 25 May 1985, of the Title of Ss. Pietro e Paolo in Via Ostiense
+          (Sts. Peter and Paul in Via Ostiense).
+        </p>
       </section>
     </section>
   );
