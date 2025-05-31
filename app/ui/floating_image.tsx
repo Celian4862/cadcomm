@@ -13,7 +13,7 @@ export default function FloatingImage({
 }) {
   return (
     <div
-      className={`float-${float} relative m-auto w-full max-w-xs md:float-right md:mb-5 md:ml-7 md:max-w-sm`}
+      className={`float-${float} relative mx-auto mb-5 w-full max-w-xs md:float-${md_float} md:mb-5 md:ml-7 md:max-w-sm`}
     >
       <Image
         src={`/${src}`}
