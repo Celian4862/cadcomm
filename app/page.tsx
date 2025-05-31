@@ -9,10 +9,10 @@ export default function Home() {
     <>
       <section>
         <div className="m-10 lg:m-20">
-          <p className="font-bold sm:w-100 dark:text-[#A5B4FC]">
+          <div className="font-bold sm:w-100 dark:text-[#A5B4FC]">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
             nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.
-          </p>
+          </div>
           <p className="pt-7 text-6xl font-black lg:text-8xl">
             <span className="text-tertiary">Finally</span>
             <br />
