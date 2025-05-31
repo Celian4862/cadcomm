@@ -18,7 +18,7 @@ export default function SidebarNav() {
       className="bg-bg-primary/40 hidden p-5 lg:block"
       aria-label="Mini navigation"
     >
-      <h2 className="text-tertiary m-5 mt-0 text-3xl font-bold uppercase">
+      <h2 className="text-tertiary m-5 mt-0 text-3xl font-black uppercase">
         About Us
       </h2>
       <div className="flex flex-col justify-between gap-2 font-light *:rounded-xl *:px-5 *:py-2">
