@@ -1,4 +1,4 @@
-import Image from "next/image";
+import FloatingImage from "@/app/ui/floating_image";
 
 export default function Page() {
   return (
@@ -15,16 +15,7 @@ export default function Page() {
           </h2>
         </header>
         <div className="text-justify">
-          <div className="float-center relative m-auto w-full max-w-xs md:float-right md:mb-5 md:ml-7 md:max-w-sm">
-            <Image
-              src="/gabriel-reyes.png"
-              alt="Gabriel Reyes"
-              width={500}
-              height={500}
-              className="h-auto w-full rounded-lg shadow-lg"
-              style={{ objectFit: "cover" }}
-            />
-          </div>
+          <FloatingImage src="gabriel-reyes.png" alt_text="Gabriel Reyes" />
           <p>
             Archbishop Gabriel M. Reyes was born on March 24, 1892, in Kalibo,
             Capiz, to Filipino parents. At the age of 13, he entered the
@@ -129,16 +120,7 @@ export default function Page() {
           </h2>
         </header>
         <div className="text-justify">
-          <div className="float-center relative m-auto w-full max-w-xs md:float-right md:mb-5 md:ml-7 md:max-w-sm">
-            <Image
-              src="/julio-rosales.png"
-              alt="Julio Rosales"
-              width={500}
-              height={500}
-              className="mb-5 w-full rounded-lg shadow-lg"
-              style={{ objectFit: "cover" }}
-            />
-          </div>
+          <FloatingImage src="julio-rosales.png" alt_text="Julio Rosales" />
           <p>
             Julio Rosales y Ras also known as Julio Rosales, the second
             Archbishop of Cebu, was a Filipino cardinal of the Roman Catholic
@@ -179,16 +161,7 @@ export default function Page() {
           </h2>
         </header>
         <div className="text-justify">
-          <div className="float-center relative m-auto w-full max-w-xs md:float-right md:mb-5 md:ml-7 md:max-w-sm">
-            <Image
-              src="/ricardo-vidal.png"
-              alt="Ricardo Vidal"
-              width={500}
-              height={500}
-              className="mb-5 w-full rounded-lg shadow-lg"
-              style={{ objectFit: "cover" }}
-            />
-          </div>
+          <FloatingImage src="ricardo-vidal.png" alt_text="Ricardo Vidal" />
           <p>
             Cardinal Ricardo J. Vidal, Archbishop Emeritus of Cebu
             (Philippines), was born on 6 February 1931 in Mogpoc, Philippines.
