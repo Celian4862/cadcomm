@@ -2,12 +2,12 @@ import Image from "next/image";
 
 export default function FloatingImage({
   src,
-  alt_text,
+  alt,
   float = "center",
   md_float = "right",
 }: {
   src: string;
-  alt_text: string;
+  alt: string;
   float?: string;
   md_float?: string;
 }) {
@@ -30,7 +30,7 @@ export default function FloatingImage({
     >
       <Image
         src={`/${src}`}
-        alt={alt_text}
+        alt={alt}
         width={500}
         height={500}
         className="h-auto w-full rounded-lg shadow-lg"
