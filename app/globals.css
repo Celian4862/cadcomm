@@ -41,5 +41,6 @@ body {
 
 p {
   color: var(--color-primary);
+  text-align: justify;
   margin-bottom: 1rem;
 }
