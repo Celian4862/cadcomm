@@ -141,7 +141,7 @@ export default function Home() {
         </header>
         <div className="flex justify-center gap-8 py-8">
           <a
-            href="https://facebook.com"
+            href="https://www.facebook.com/sugboanongsimbahan"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Facebook"
@@ -152,7 +152,7 @@ export default function Home() {
             </span>
           </a>
           <a
-            href="https://x.com"
+            href="https://x.com/sugbosimbahan"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="X"
@@ -163,7 +163,7 @@ export default function Home() {
             </span>
           </a>
           <a
-            href="https://tiktok.com"
+            href="https://www.tiktok.com/@sugboanongsimbahan"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="TikTok"
@@ -174,7 +174,7 @@ export default function Home() {
             </span>
           </a>
           <a
-            href="https://youtube.com"
+            href="https://www.youtube.com/@sugboanongsimbahan"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="YouTube"
@@ -185,7 +185,7 @@ export default function Home() {
             </span>
           </a>
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/sugboanongsimbahan/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
