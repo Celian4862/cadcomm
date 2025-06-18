@@ -1,4 +1,4 @@
-const content = [
+export const previous_bishops = [
   {
     name: "Gabriel Reyes",
     image: "gabriel-reyes.png",
@@ -41,5 +41,3 @@ const content = [
     ],
   },
 ];
-
-export default content;

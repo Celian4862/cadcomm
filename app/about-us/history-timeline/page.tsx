@@ -1,5 +1,5 @@
 import FloatingImage from "@/app/ui/floating_image";
-import content from "./content";
+import { previous_bishops } from "./content";
 
 export default function Page() {
   return (
@@ -10,7 +10,7 @@ export default function Page() {
         </h1>
       </header>
       {(
-        content as Array<{
+          previous_bishops as Array<{
           name: string;
           image: string;
           text: string | string[];
