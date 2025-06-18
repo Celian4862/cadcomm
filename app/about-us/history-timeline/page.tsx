@@ -37,7 +37,7 @@ export default function Page() {
       </section>
       <section>
         <header>
-          <h1 className="text-tertiary mb-10 text-5xl font-black uppercase">
+          <h1 className="text-tertiary mb-10 text-4xl font-black uppercase md:text-5xl">
             <div className="text-tertiary">Suroysaysay sa</div>
             <div className="text-quaternary">Sugboanong Simbahan</div>
           </h1>
