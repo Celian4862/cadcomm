@@ -1,6 +1,6 @@
 import Image from "next/image";
 import FloatingImage from "@/app/ui/floating_image";
-import { previous_bishops, suroysaysay } from "./content";
+import { previous_bishops, suroysaysay, article } from "./content";
 
 export default function Page() {
   return (
@@ -76,6 +76,24 @@ export default function Page() {
             ))}
           </div>
         </section>
+      </section>
+      <section>
+        <header className="mb-3">
+          <h1 className="font-extrabold uppercase">
+            <div className="text-tertiary text-4xl md:text-5xl">
+              Archdiocese of Cebu:
+            </div>
+            <div className="text-quaternary text-2xl md:text-3xl">
+              The Journey of Transformative Faith and Hope in the Orient
+            </div>
+          </h1>
+        </header>
+        <FloatingImage src="History image.png" alt="History image" />
+        {article.map((paragraph: string, index: number) => (
+          <p key={index} className="mb-5">
+            {paragraph}
+          </p>
+        ))}
       </section>
     </>
   );
