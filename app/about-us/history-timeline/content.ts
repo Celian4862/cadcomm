@@ -41,3 +41,31 @@ export const previous_bishops = [
     ],
   },
 ];
+
+export const suroysaysay = [
+  {
+    title: "Episode 1: The Cebuanos Before Christianity",
+    image: "suroysaysay_ep2.png",
+    alt: "Suroysaysay sa Sugboanong Simbahan episode 2",
+  },
+  {
+    title: "Episode 1: The Cebuanos Before Christianity",
+    image: "suroysaysay_ep2.png",
+    alt: "Suroysaysay sa Sugboanong Simbahan episode 2",
+  },
+  {
+    title: "Episode 1: The Cebuanos Before Christianity",
+    image: "suroysaysay_ep2.png",
+    alt: "Suroysaysay sa Sugboanong Simbahan episode 2",
+  },
+  {
+    title: "Episode 1: The Cebuanos Before Christianity",
+    image: "suroysaysay_ep2.png",
+    alt: "Suroysaysay sa Sugboanong Simbahan episode 2",
+  },
+  {
+    title: "Episode 1: The Cebuanos Before Christianity",
+    image: "suroysaysay_ep2.png",
+    alt: "Suroysaysay sa Sugboanong Simbahan episode 2",
+  },
+];
