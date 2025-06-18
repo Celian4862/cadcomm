@@ -41,7 +41,7 @@ export default function Home() {
                 </p>
               ))}
             </div>
-            <ReadMore />
+            <ReadMore href="/about-us/history-timeline#the-journey-of-transformative-faith-and-hope-in-the-orient" />
           </div>
           <Image
             src="/History image.png"
