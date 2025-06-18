@@ -13,7 +13,7 @@ export default function NewsCard({
       style={{ backgroundImage: `url("${img_url}")` }}
     >
       <div className="absolute top-0 left-0 flex h-full w-full items-center justify-center">
-        <div className="p-5 text-center text-3xl font-bold uppercase">
+        <div className="p-5 text-center text-3xl font-bold text-white uppercase">
           {text}
         </div>
       </div>
