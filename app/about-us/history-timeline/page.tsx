@@ -78,7 +78,10 @@ export default function Page() {
         </section>
       </section>
       <section>
-        <header className="mb-3">
+        <header
+          id="the-journey-of-transformative-faith-and-hope-in-the-orient"
+          className="mb-3"
+        >
           <h1 className="font-extrabold uppercase">
             <div className="text-tertiary text-4xl md:text-5xl">
               Archdiocese of Cebu:
