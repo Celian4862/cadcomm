@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ReadMore from "@/app/ui/home_button";
+import ReadMore from "@/app/ui/read_more";
 import NewsCard from "./ui/news_card";
 import { FaFacebookF, FaYoutube, FaInstagram } from "react-icons/fa";
 import { FaXTwitter, FaTiktok } from "react-icons/fa6";

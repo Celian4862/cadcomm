@@ -1,4 +1,4 @@
-import ReadMore from "@/app/ui/home_button";
+import ReadMore from "@/app/ui/read_more";
 
 export default function NewsCard({
   text,
