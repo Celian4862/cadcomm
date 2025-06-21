@@ -1,4 +1,4 @@
-import SidebarNav from "../ui/sidebar_nav";
+import SidebarNav from "@/ui/SidebarNav";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import NavBar from "@/app/ui/nav_bar";
+import NavBar from "./home_ui/nav/NavBar";
 
 export const metadata: Metadata = {
   title: "Roman Catholic Archdiocese of Cebu",

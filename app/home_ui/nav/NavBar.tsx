@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import NavDropdown from "./nav_dropdown";
+import NavDropdown from "./NavDropdown";
 
 export default function NavBar() {
   const links = [
