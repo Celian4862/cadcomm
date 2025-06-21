@@ -1,4 +1,4 @@
-import FloatingImage from "@/app/about-us/floating_image";
+import FloatingImage from "@/app/about-us/FloatingImage";
 
 export default function Page() {
   return (

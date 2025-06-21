@@ -1,5 +1,5 @@
 import Image from "next/image";
-import FloatingImage from "@/app/about-us/floating_image";
+import FloatingImage from "@/app/about-us/FloatingImage";
 import { previous_bishops, suroysaysay, article } from "./content";
 
 export default function Page() {
