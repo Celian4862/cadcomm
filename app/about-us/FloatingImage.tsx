@@ -1,5 +1,19 @@
 import Image from "next/image";
 
+const floatClasses: Record<string, string> = {
+  left: "float-left",
+  right: "float-right",
+  none: "float-none",
+  center: "mx-auto",
+};
+
+const mdFloatClasses: Record<string, string> = {
+  left: "md:float-left",
+  right: "md:float-right",
+  none: "md:float-none",
+  center: "md:mx-auto",
+};
+
 export default function FloatingImage({
   src,
   alt,
@@ -11,19 +25,6 @@ export default function FloatingImage({
   float?: string;
   md_float?: string;
 }) {
-  const floatClasses: Record<string, string> = {
-    left: "float-left",
-    right: "float-right",
-    none: "float-none",
-    center: "mx-auto",
-  };
-
-  const mdFloatClasses: Record<string, string> = {
-    left: "md:float-left",
-    right: "md:float-right",
-    none: "md:float-none",
-    center: "md:mx-auto",
-  };
   return (
     <div
       className={`relative mb-5 w-full max-w-xs md:mb-5 md:ml-7 md:max-w-sm ${floatClasses[float] || ""} ${mdFloatClasses[md_float] || ""}`}
