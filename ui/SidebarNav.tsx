@@ -2,16 +2,13 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const links = [
-  { href: "/about-us/history-timeline", label: "History Timeline" },
-  { href: "/about-us/archbishop-of-cebu", label: "Archbishop of Cebu" },
-  {
-    href: "/about-us/archdioceses-coat-of-arms",
-    label: "Archdiocese's Coat of Arms",
-  },
-];
-
-export default function SidebarNav() {
+export default function SidebarNav({
+  title,
+  links,
+}: {
+  title: string;
+  links: { href: string; label: string }[];
+}) {
   const pathname = usePathname();
   return (
     <aside
@@ -19,7 +16,7 @@ export default function SidebarNav() {
       aria-label="Mini navigation"
     >
       <h2 className="text-tertiary m-5 mt-0 text-3xl font-black uppercase">
-        About Us
+        {title}
       </h2>
       <div className="flex flex-col justify-between gap-2 font-light *:rounded-xl *:px-5 *:py-2">
         {links.map((link) => (
