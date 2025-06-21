@@ -3,7 +3,7 @@ import ReadMore from "./home_ui/ReadMore";
 import NewsCard from "./home_ui/NewsCard";
 import { FaFacebookF, FaYoutube, FaInstagram } from "react-icons/fa";
 import { FaXTwitter, FaTiktok } from "react-icons/fa6";
-import { article } from "./about-us/history-timeline/content";
+import { article } from "./about-us/content";
 
 export default function Home() {
   return (

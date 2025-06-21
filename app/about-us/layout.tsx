@@ -1,7 +1,7 @@
 import SidebarNav from "@/ui/SidebarNav";
 
 const links = [
-  { href: "/about-us/history-timeline", label: "History Timeline" },
+  { href: "/about-us", label: "History Timeline" },
   { href: "/about-us/archbishop-of-cebu", label: "Archbishop of Cebu" },
   {
     href: "/about-us/archdioceses-coat-of-arms",
